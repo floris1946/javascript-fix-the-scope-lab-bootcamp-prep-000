@@ -11,6 +11,9 @@ function yourAnimal() {
   return animal
 }
 
+console.log(myAnimal())
+console.log(yourAnimal())
+
 function add2(n) {
   const two = 2
   return n + two
@@ -28,5 +31,3 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction()()
 
-
-console.log(theFunk)
